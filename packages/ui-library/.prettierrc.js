@@ -1,9 +1,6 @@
 export default {
   pluginSearchDirs: false,
-  plugins: [
-    import.meta.resolve('prettier-plugin-organize-imports'),
-    import.meta.resolve('prettier-plugin-packagejson'),
-  ],
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
   printWidth: 80,
   proseWrap: 'never',
   singleQuote: true,

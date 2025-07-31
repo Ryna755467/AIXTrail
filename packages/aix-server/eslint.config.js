@@ -1,7 +1,11 @@
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
 import eslint from '@eslint/js';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default tseslint.config(
   {
@@ -19,7 +23,7 @@ export default tseslint.config(
       sourceType: 'module',
       parserOptions: {
         projectService: true,
-        tsconfigRootDir: import.meta.dirname,
+        tsconfigRootDir: __dirname,
       },
     },
   },

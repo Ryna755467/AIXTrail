@@ -1,3 +1,3 @@
 export default {
-  extends: import.meta.resolve('@umijs/lint/dist/config/eslint'),
+  extends: '@umijs/lint/dist/config/eslint',
 };
