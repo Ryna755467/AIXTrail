@@ -1,6 +1,6 @@
 ---
 hero:
-  title: library
+  title: AIX-Library
   description: A react library developed with dumi
   actions:
     - text: Hello
@@ -14,7 +14,7 @@ features:
   - title: World
     emoji: 🌈
     description: Put world description here
-  - title: '!'
+  - title: "!"
     emoji: 🚀
     description: Put ! description here
 ---
