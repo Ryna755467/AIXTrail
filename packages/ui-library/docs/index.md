@@ -1,6 +1,6 @@
 ---
 hero:
-  title: library
+  title: AIX-Library
   description: A react library developed with dumi
   actions:
     - text: Hello
