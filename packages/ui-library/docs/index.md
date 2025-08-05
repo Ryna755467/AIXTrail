@@ -14,7 +14,7 @@ features:
   - title: World
     emoji: 🌈
     description: Put world description here
-  - title: "!"
+  - title: '!'
     emoji: 🚀
     description: Put ! description here
 ---

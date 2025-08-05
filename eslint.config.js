@@ -1,13 +1,13 @@
-import globals from "globals";
-import eslint from "@eslint/js";
-import tseslint from "typescript-eslint";
+import globals from 'globals';
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   {
     ignores: [
-      "node_modules/**",
-      "packages/**/dist/**",
-      "packages/**/node_modules/**",
+      'node_modules/**',
+      'packages/**/dist/**',
+      'packages/**/node_modules/**',
     ],
   },
   eslint.configs.recommended,
@@ -18,13 +18,20 @@ export default tseslint.config(
         ...globals.node,
         ...globals.browser,
       },
-      sourceType: "module",
+      sourceType: 'module',
     },
   },
   {
     rules: {
-      "no-console": "warn",
-      "no-unused-vars": "warn",
+      'no-console': 'warn',
+      'no-unused-vars': 'warn',
+      '@typescript-eslint/no-unused-expressions': [
+        'error',
+        {
+          allowShortCircuit: true,
+          allowTernary: true,
+        },
+      ],
     },
-  }
+  },
 );
