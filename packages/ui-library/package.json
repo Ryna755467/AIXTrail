@@ -1,8 +1,9 @@
 {
-  "name": "ui-library",
+  "name": "aix-library",
   "version": "1.0.0",
   "description": "A react library developed with dumi",
   "license": "MIT",
+  "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -25,16 +26,11 @@
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@umijs/lint": "^4.0.0",
     "dumi": "^2.4.13",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
-    "prettier": "^2.7.1",
-    "prettier-plugin-organize-imports": "^3.0.0",
-    "prettier-plugin-packagejson": "^2.2.18",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "stylelint": "^14.9.1"
+    "react-dom": "^18.0.0"
   },
   "peerDependencies": {
     "react": ">=16.9.0",
