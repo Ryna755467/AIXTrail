@@ -4,7 +4,7 @@ hero:
   description: A react library developed with dumi
   actions:
     - text: Hello
-      link: /
+      link: /components
     - text: World
       link: /
 features:
