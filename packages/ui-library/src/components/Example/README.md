@@ -1,12 +1,11 @@
 ---
 group: 通用
+type: 模版
 ---
 
 # Example
 
-:::info{title=INFO}
-This is an example component.
-:::
+<Alert type="info">This is an example component.</Alert>
 
 ```jsx | pure
 import { Example } from 'aix-library';
