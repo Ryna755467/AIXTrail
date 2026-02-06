@@ -1,4 +1,7 @@
 import { type FC } from 'react';
+import { createClassPrefix } from '../../utils/classPrefix';
+
+const cls = createClassPrefix('basic-example');
 
 export const Example: FC<{
   /**
@@ -6,4 +9,4 @@ export const Example: FC<{
    * @default "默认值"
    */
   title?: string;
-}> = ({ title = '默认值' }) => <h1>{title}</h1>;
+}> = ({ title = '默认值' }) => <h1 className={cls()}>{title}</h1>;

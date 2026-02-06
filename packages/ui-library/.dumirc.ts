@@ -9,8 +9,8 @@ export default defineConfig({
     entryFile: './src/index.ts',
   },
   themeConfig: defineThemeConfig({
-    title: 'AIX-Library',
-    name: 'AIX-Library',
+    title: 'AIX Library',
+    name: 'AIX Library',
     logo: 'favicon.svg',
     description: 'AIXTrail UI组件库',
     footer: 'AIXTrail | Copyright © 2025-present',
@@ -29,7 +29,7 @@ export default defineConfig({
     docVersions: {
       '1.0.0': '',
     },
-    sidebarGroupModePath: undefined,
+    sidebarGroupModePath: true,
     actions: [
       { type: 'primary', text: '开始使用', link: '/components' },
       { type: 'default', text: '设计规范', link: '/design' },

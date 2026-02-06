@@ -1,6 +1,5 @@
 ---
 group: 通用
-type: 模版
 ---
 
 # Example
