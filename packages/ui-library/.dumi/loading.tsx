@@ -1,5 +1,1 @@
-const Loading = () => {
-  return <div>Loading...</div>;
-};
-
-export default Loading;
+export { Loading as default } from 'dumi-theme-antd';

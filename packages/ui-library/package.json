@@ -23,6 +23,9 @@
     "prepublishOnly": "father doctor && npm run build",
     "start": "npm run dev"
   },
+  "dependencies": {
+    "dumi-theme-antd": "^0.4.4"
+  },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
