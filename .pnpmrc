@@ -1,0 +1,6 @@
+registry=https://registry.npmmirror.com
+network-concurrency=16
+prefer-offline=true
+auto-install-peers=true
+strict-peer-dependencies=false
+enable-pre-post-scripts=true

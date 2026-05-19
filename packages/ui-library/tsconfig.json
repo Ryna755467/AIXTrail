@@ -8,8 +8,11 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "aix-library": ["src"],
-      "aix-library/*": ["src/*", "*"]
+      "@components/*": ["src/components/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "aix-library": ["src"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]
